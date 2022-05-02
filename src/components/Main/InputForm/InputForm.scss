@@ -1,0 +1,57 @@
+.input-main {
+  box-shadow: 0px 5px 10px grey;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+
+  .input-block {
+    margin: 10px;
+
+    .block-name {
+      width: 40px;
+      height: 21px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .MuiButton-containedPrimary {
+    width: 131px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .MuiButton-containedPrimary:hover {
+    background: #cecece;
+  }
+
+  .MuiOutlinedInput-root {
+    height: 50px;
+    width: 180px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .button-add {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
